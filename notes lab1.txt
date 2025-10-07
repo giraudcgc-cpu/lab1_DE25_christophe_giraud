@@ -29,7 +29,8 @@ for i, line in enumerate(lines, 0):
 
 
 dict comprehension vid 7:55**
-
+blabla = {}
+my_dict = {what we want to do with the data for key,value in blabla.items()}
 ---
 from dict to list 
 key/value
