@@ -5,7 +5,7 @@ took the txt file and saved it in the local repo(repo's project)
 Then, from VSC, I could run the code and the text file appeared in VSC on the left side with a U. 
 
 ---
-code which did work
+code which did work	x
 
 with open("dna_raw.txt", "r") as f:
     data = f.read()
@@ -13,10 +13,27 @@ with open("dna_raw.txt", "r") as f:
 
 ----
 plan:
-type of the text file
-extract seq 1 
-Dictionary
+type of the text file, strings are list of characters, so i can iterate through the letters
+extract seq 1  
+Dictionary = can contain list, in order to loop, video 4:00, also use of .item to get dict with list of tuples? idea of dict = ([()]).
 graph
+
+----
+enumerate to use the line numbers? 
+splitting letters and numbers with loop
+https://www.geeksforgeeks.org/python/python-splitting-text-and-number-in-string/
+
+
+for i, line in enumerate(lines, 0):
+    print(f"{i}.{lines}")
+
+
+dict comprehension vid 7:55**
+
+---
+from dict to list 
+key/value
+letters/numbers
 
 ---
 Approach to create graphes:
