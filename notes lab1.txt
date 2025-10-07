@@ -1,0 +1,31 @@
+notes lab1:
+
+placing the txt.file in my local cpu:
+took the txt file and saved it in the local repo(repo's project)
+Then, from VSC, I could run the code and the text file appeared in VSC on the left side with a U. 
+
+---
+code which did work
+
+with open("dna_raw.txt", "r") as f:
+    data = f.read()
+    print(data)
+
+----
+plan:
+type of the text file
+extract seq 1 
+Dictionary
+graph
+
+---
+Approach to create graphes:
+Import matplotlib. pyplot module for visualization.
+Open file in read mode 'r' with open( ) function.
+Iterate through each line in the file using a for loop.
+Append each row in the file into list as required for our visualization.
+Using plt.
+https://www.geeksforgeeks.org/python/python-create-graph-from-text-file/
+
+
+
