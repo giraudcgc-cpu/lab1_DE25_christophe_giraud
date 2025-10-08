@@ -15,11 +15,11 @@ with open("dna_raw.txt", "r") as f:
 plan:
 type of the text file, strings are list of characters, so i can iterate through the letters
 extract seq 1  
-Dictionary = can contain list, in order to loop, video 4:00, also use of .item to get dict with list of tuples? idea of dict = ([()]).
+Dictionary = can contain list, in order to loop, video 4:00, also use of .item to get dict with list of tuples? idea of dict = ([()]). ??
 graph
 
 ----
-enumerate to use the line numbers? 
+enumerate to use the line numbers?	no
 splitting letters and numbers with loop
 https://www.geeksforgeeks.org/python/python-splitting-text-and-number-in-string/
 
@@ -35,6 +35,10 @@ my_dict = {what we want to do with the data for key,value in blabla.items()}
 from dict to list 
 key/value
 letters/numbers
+---
+https://www.geeksforgeeks.org/python/python-count-occurrences-element-list/
+Count occurrences of an element in a list in Python
+
 
 ---
 Approach to create graphes:
@@ -45,5 +49,15 @@ Append each row in the file into list as required for our visualization.
 Using plt.
 https://www.geeksforgeeks.org/python/python-create-graph-from-text-file/
 
+---
+dict comprehension
+https://www.geeksforgeeks.org/python/python-dictionary-comprehension/
 
+---
+str count
+https://stackoverflow.com/questions/1155617/count-the-number-of-occurrences-of-a-character-in-a-string
+ex:
+sentence = 'Mary had a little lamb'
+	sentence.count('a')
 
+gives 4
