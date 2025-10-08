@@ -49,6 +49,13 @@ Append each row in the file into list as required for our visualization.
 Using plt.
 https://www.geeksforgeeks.org/python/python-create-graph-from-text-file/
 
+variables for the graph from the code, dicos:
+count_letters_s1
+count_letters_s2
+count_letters_s3
+
+
+
 ---
 dict comprehension
 https://www.geeksforgeeks.org/python/python-dictionary-comprehension/
