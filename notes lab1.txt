@@ -53,6 +53,7 @@ variables for the graph from the code, dicos:
 count_letters_s1
 count_letters_s2
 count_letters_s3
+count_letters_s4
 
 
 
