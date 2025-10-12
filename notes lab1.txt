@@ -1,9 +1,5 @@
 notes lab1:
 
-placing the txt.file in my local cpu:
-took the txt file and saved it in the local repo(repo's project)
-Then, from VSC, I could run the code and the text file appeared in VSC on the left side with a U. 
-
 ---
 code which did work	x
 
@@ -19,9 +15,9 @@ Dictionary = can contain list, in order to loop, video 4:00, also use of .item t
 graph
 
 ---
-from dict to list 
+dict, pairing
 key/value
-letters/numbers
+seq/letters
 ---
 https://www.geeksforgeeks.org/python/python-count-occurrences-element-list/
 Count occurrences of an element in a list in Python
@@ -42,6 +38,6 @@ count_letters_s3
 count_letters_s4
 
 ---
-dict comprehension
+dict comprehension --- nope
 https://www.geeksforgeeks.org/python/python-dictionary-comprehension/
 
